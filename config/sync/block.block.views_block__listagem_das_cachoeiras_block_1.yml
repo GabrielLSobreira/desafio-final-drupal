@@ -1,0 +1,29 @@
+uuid: eac8db20-d15d-4bc3-beb4-4de65b7f8f41
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.listagem_das_cachoeiras
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__listagem_das_cachoeiras_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:listagem_das_cachoeiras-block_1'
+settings:
+  id: 'views_block:listagem_das_cachoeiras-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/cachoeiras\r\n/parques\r\n/node/*\r\n/taxonomy/*\r\n/contact"
+    negate: true
