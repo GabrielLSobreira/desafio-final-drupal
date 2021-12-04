@@ -1,0 +1,49 @@
+uuid: 1eb00500-50de-41cb-a9bc-47964e89cd65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.parque_de_diversao.body
+    - field.field.node.parque_de_diversao.field_fotosparque
+    - field.field.node.parque_de_diversao.field_video_do_parque
+    - node.type.parque_de_diversao
+  module:
+    - image
+    - text
+    - user
+id: node.parque_de_diversao.default
+targetEntityType: node
+bundle: parque_de_diversao
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_fotosparque:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video_do_parque:
+    type: entity_reference_entity_view
+    weight: 103
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

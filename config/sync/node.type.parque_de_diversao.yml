@@ -1,0 +1,17 @@
+uuid: c14e6a8e-38f3-41df-8115-4586a610be0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Parques de diversão'
+type: parque_de_diversao
+description: 'Adicione um novo registro de parque de diversão por aqui. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,7 +1,7 @@
 uuid: a2012bac-415c-4212-8aa9-d19bd9f4212c
-name: 'Drush Site-Install'
+name: 'Melhores Destinos'
 mail: admin@example.com
-slogan: ''
+slogan: 'Encontre os melhores destinos do mundo aqui!'
 page:
   403: ''
   404: ''

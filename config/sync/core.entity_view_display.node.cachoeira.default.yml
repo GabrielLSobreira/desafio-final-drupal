@@ -1,0 +1,49 @@
+uuid: f5aa99e6-e779-4a55-baaf-a5d048d677c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cachoeira.body
+    - field.field.node.cachoeira.field_fotos
+    - field.field.node.cachoeira.field_video_da_cachoeira
+    - node.type.cachoeira
+  module:
+    - image
+    - text
+    - user
+id: node.cachoeira.default
+targetEntityType: node
+bundle: cachoeira
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_fotos:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video_da_cachoeira:
+    type: entity_reference_entity_view
+    weight: 103
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,38 @@
+uuid: 254884ec-517d-4eaf-8d77-ac8df3851495
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fotosparque
+    - node.type.parque_de_diversao
+  module:
+    - image
+id: node.parque_de_diversao.field_fotosparque
+field_name: field_fotosparque
+entity_type: node
+bundle: parque_de_diversao
+label: Fotos
+description: 'Adicione imagens do parque de diversão.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: imagens/parque
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 800x600
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

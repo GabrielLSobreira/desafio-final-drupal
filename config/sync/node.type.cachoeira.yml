@@ -1,0 +1,17 @@
+uuid: 1656ba5c-ae83-4a78-99d6-fc2afd4d0203
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Cachoeiras
+type: cachoeira
+description: 'Adicione um novo registro de uma cachoeira por aqui. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

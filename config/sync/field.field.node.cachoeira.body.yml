@@ -1,0 +1,23 @@
+uuid: 763d2d0c-28da-4ff0-8348-73fce01ab3c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cachoeira
+  module:
+    - text
+id: node.cachoeira.body
+field_name: body
+entity_type: node
+bundle: cachoeira
+label: 'Descrição da Cachoeira'
+description: 'Adicione as principais informações da cachoeira. '
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,20 @@
+uuid: f0361beb-8e7f-454e-aa42-16d1eff33083
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_video_do_parque
+field_name: field_video_do_parque
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

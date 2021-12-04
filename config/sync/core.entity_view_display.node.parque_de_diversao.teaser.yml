@@ -1,0 +1,34 @@
+uuid: 6edf2917-bb78-420a-b921-204db2849de3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.parque_de_diversao.body
+    - field.field.node.parque_de_diversao.field_fotosparque
+    - field.field.node.parque_de_diversao.field_video_do_parque
+    - node.type.parque_de_diversao
+  module:
+    - text
+    - user
+id: node.parque_de_diversao.teaser
+targetEntityType: node
+bundle: parque_de_diversao
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_fotosparque: true
+  field_video_do_parque: true
