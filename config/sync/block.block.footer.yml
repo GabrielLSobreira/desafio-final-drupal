@@ -1,6 +1,6 @@
-uuid: 9a0c27e0-64eb-4816-b768-27a4e54181e3
+uuid: c9f3c069-c250-4e85-9fd0-8994488c8640
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.footer
@@ -8,19 +8,17 @@ dependencies:
     - system
   theme:
     - bartik
-_core:
-  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
-id: bartik_footer
+id: footer
 theme: bartik
-region: footer_fifth
+region: footer_second
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
   id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  label: Sobre
   provider: system
-  label_display: '0'
+  label_display: visible
   level: 1
   depth: 0
   expand_all_items: false

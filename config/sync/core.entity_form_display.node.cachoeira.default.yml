@@ -38,9 +38,13 @@ content:
     third_party_settings: {  }
   field_cidade:
     weight: 1
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: entity_reference_autocomplete
     region: content
   field_fotos:
     weight: 4
@@ -52,9 +56,13 @@ content:
     region: content
   field_p:
     weight: 2
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: entity_reference_autocomplete
     region: content
   field_video_da_cachoeira:
     type: media_library_widget
