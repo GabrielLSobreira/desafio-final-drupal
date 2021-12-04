@@ -1,0 +1,8 @@
+uuid: 66c9bc29-2481-4ac6-a80f-306a1e90826c
+langcode: en
+status: true
+dependencies: {  }
+name: Países
+vid: paises
+description: 'Use aqui para inserir países.'
+weight: 0

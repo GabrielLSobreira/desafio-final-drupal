@@ -1,0 +1,20 @@
+uuid: ccf45af7-fca3-4482-8c57-7904fe5cae1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_paisparque
+field_name: field_paisparque
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.parque_de_diversao.body
+    - field.field.node.parque_de_diversao.field_cidadeparque
     - field.field.node.parque_de_diversao.field_fotosparque
+    - field.field.node.parque_de_diversao.field_paisparque
     - field.field.node.parque_de_diversao.field_video_do_parque
     - node.type.parque_de_diversao
   module:
@@ -30,5 +32,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_cidadeparque: true
   field_fotosparque: true
+  field_paisparque: true
   field_video_do_parque: true

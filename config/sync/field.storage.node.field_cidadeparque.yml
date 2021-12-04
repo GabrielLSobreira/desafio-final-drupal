@@ -1,0 +1,20 @@
+uuid: 9619eb7d-e51b-49a8-90de-1a5bc7fd0eec
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_cidadeparque
+field_name: field_cidadeparque
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -5,7 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.cachoeira.body
+    - field.field.node.cachoeira.field_cidade
     - field.field.node.cachoeira.field_fotos
+    - field.field.node.cachoeira.field_p
     - field.field.node.cachoeira.field_video_da_cachoeira
     - node.type.cachoeira
   module:
@@ -30,5 +32,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_cidade: true
   field_fotos: true
+  field_p: true
   field_video_da_cachoeira: true
