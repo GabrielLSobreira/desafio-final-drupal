@@ -1,0 +1,23 @@
+uuid: 61649ee1-e9c1-4b01-a614-672dc8290df4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: adkpHYI8S4q54KIjLukOXC4ApP50wuGyPzzQFP0oDnY
+id: corporate_lite_search
+theme: corporate_lite
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }
