@@ -26,4 +26,23 @@ Projeto desenvolvido ao final do programa New Thinkers da <a href="https://www.s
 - ✔️ Drush
 
 
+## Como executar o projeto
 
+### Antes de executar faça a instalação dos seguintes itens:
+
+- [DDEV](https://ddev.readthedocs.io/en/stable/)
+
+- [Docker](https://docs.docker.com/desktop/windows/install/)
+
+
+### Após a instalação siga os passos:
+
+1. git clone https://github.com/GabrielLSobreira/desafio-final-drupal
+
+2. cd desafio-final-drupal
+
+3. ddev config --auto
+
+4. ddev composer install
+
+5. ddev launch
